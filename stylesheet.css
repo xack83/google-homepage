@@ -1,0 +1,85 @@
+body {
+	position: relative;
+}
+
+div {
+	margin: 0 auto;
+	position: relative;
+}
+
+div div {
+	background-color: #A4CA39;
+	position: relative;
+	margin: 0 auto;
+}
+
+/** HEADER  **/
+
+.header {
+	height: 50px; width: 100%;
+	margin: 0 auto;
+	background-color: green;
+}
+
+.menu {
+	height: 40px; width: 200px;
+	margin: 5px 5px 5px 5px;
+	background-color: blue;
+	float: right;
+}
+
+/** FOOTER **/
+
+.footer {
+	height: 50px; width: 100%;
+	margin: 0 auto;
+	background-color: green;
+}
+
+.foot1 {
+	height: 40px; width: 200px;
+	margin: 5px 5px 5px 5px;
+	background-color: blue;
+	float: left;
+}
+
+.foot2 {
+	height: 40px; width: 200px;
+	margin: 5px 5px 5px 5px;
+	background-color: blue;
+	float: right;
+}
+
+/** CONTENT **/
+
+.content {
+	height: 100%; width: 634px;
+	margin: 0 auto;
+	background-color: yellow;
+	text-align: center;
+}
+
+.logo {
+	height: 100px; width: 300px;
+	background-color: red;
+}
+
+.search {
+	height: 50px; width: 600px;
+	background-color: red;
+	margin-top: 20px;
+}
+
+.buttons {
+	height: 50px; width: 100px;
+	background-color: red;
+	margin-top: 20px;
+	display: inline-block;
+	float: center;
+}
+
+.other_lang {
+	height: 25px; width: 400px;
+	background-color: red;
+	margin-top: 20px;
+}
