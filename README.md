@@ -1,2 +1,2 @@
 # google-homepage
-Rebuilding of Google.es homepage using HTML5 &amp; CSS3
+Rebuilding of Google.es homepage using HTML5 and CSS3.
