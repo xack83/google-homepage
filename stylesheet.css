@@ -7,6 +7,7 @@ body {
 	height: 100%;
 	min-height: 100%;
 	margin: 0 auto;
+	font-family: Arial, sans serif;
 }
 
 div {
@@ -43,6 +44,7 @@ div div {
 	position: absolute;
 	background-color: #f2f2f2;
 	border-top: 1px solid #ddd;
+	font-size: 0.8em;
 }
 
 .foot1 {
@@ -51,8 +53,6 @@ div div {
 	float: left;
 	text-align: center;
 	display: inline-block;
-	font-family: Arial;
-	font-size: 0.8em;
 	color: #666;
 }
 
@@ -63,8 +63,6 @@ div div {
 	float: right;
 	text-align: center;
 	display: inline-block;
-	font-family: Arial;
-	font-size: 0.8em;
 	color: #666;
 }
 
@@ -73,6 +71,7 @@ div div {
 .content {
 	height: 100%;
 	text-align: center;
+	font-size: 0.8em;
 }
 
 .logo {
@@ -82,23 +81,45 @@ div div {
 
 .search {
 	margin-top: 20px;
+	border: 1px solid #d9d9d9;
+	height: 30px; width: 42%;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.search:hover {
+	border: 1px solid #4d90fe;
+}
+
+.search_content {
+	display: inline-block;
+	outline: none;
+	border: 0px solid;
+	margin-top: 1px;
+	vertical-align:middle;
 }
 
 input[type=search] {
-	height: 30px;
-	border: 1px solid blue;
+	border:none;
+	box-shadow: 0;
+	width: 545px;
+}
+
+input[type=search]:focus {
+	border:none;
+	box-shadow: 0;
+	outline: 0;
 }
 
 .buttons {
-	height: 50px; width: 100px;
+	height: 35px; width: 100px;
 	background-color: #eee;
-	margin-top: 20px;
+	margin-top: 15px;
 	display: inline-block;
 	float: center;
 }
 
 .other_lang {
 	height: 25px; width: 400px;
-	background-color: #eee;
-	margin-top: 20px;
+	margin-top: 35px;
 }
