@@ -1,14 +1,19 @@
+html {
+	height: 100%;
+}
+
 body {
 	position: relative;
+	height: 100%;
+	min-height: 100%;
+	margin: 0 auto;
 }
 
 div {
 	margin: 0 auto;
-	position: relative;
 }
 
 div div {
-	background-color: #A4CA39;
 	position: relative;
 	margin: 0 auto;
 }
@@ -17,62 +22,76 @@ div div {
 
 .header {
 	height: 50px; width: 100%;
-	margin: 0 auto;
-	background-color: green;
+	top:0px;
+    left:0px;
+    position:absolute;
+	background-color: #eee;
 }
 
 .menu {
 	height: 40px; width: 200px;
 	margin: 5px 5px 5px 5px;
-	background-color: blue;
+	background-color: #aaa;
 	float: right;
 }
 
 /** FOOTER **/
 
 .footer {
-	height: 50px; width: 100%;
-	margin: 0 auto;
-	background-color: green;
+	height: 40px; width: 100%;
+	bottom: 1px; left: 0;
+	position: absolute;
+	background-color: #f2f2f2;
+	border-top: 1px solid #ddd;
 }
 
 .foot1 {
-	height: 40px; width: 200px;
-	margin: 5px 5px 5px 5px;
-	background-color: blue;
+	margin: 0 auto;
+	padding-left: 30px;
 	float: left;
+	text-align: center;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 0.8em;
+	color: #666;
 }
 
 .foot2 {
-	height: 40px; width: 200px;
-	margin: 5px 5px 5px 5px;
-	background-color: blue;
+	margin: 0 auto;
+	padding-right: 30px;
+	padding-top: 13px;
 	float: right;
+	text-align: center;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 0.8em;
+	color: #666;
 }
 
 /** CONTENT **/
 
 .content {
-	height: 100%; width: 634px;
-	margin: 0 auto;
-	background-color: yellow;
+	height: 100%;
 	text-align: center;
 }
 
 .logo {
-	height: 100px; width: 300px;
-	background-color: red;
+	height: 100px; width: 279px;
+	padding-top: 190px;
 }
 
 .search {
-	height: 50px; width: 600px;
-	background-color: red;
 	margin-top: 20px;
+}
+
+input[type=search] {
+	height: 30px;
+	border: 1px solid blue;
 }
 
 .buttons {
 	height: 50px; width: 100px;
-	background-color: red;
+	background-color: #eee;
 	margin-top: 20px;
 	display: inline-block;
 	float: center;
@@ -80,6 +99,6 @@ div div {
 
 .other_lang {
 	height: 25px; width: 400px;
-	background-color: red;
+	background-color: #eee;
 	margin-top: 20px;
 }
